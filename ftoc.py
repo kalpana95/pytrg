@@ -8,4 +8,7 @@ def ctof(c) :
 	f=9/5*c+32
 	print(f)
 
-ctof(100)
+ctof(100)      
+print(__name__)
+if __name__=="__main__":
+   print(ctof(100))
